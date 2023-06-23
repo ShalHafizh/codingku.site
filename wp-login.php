@@ -17,7 +17,7 @@
 		<div id="login">
 		<h1><a href="https://wordpress.org/">Dipersembahkan oleh WordPress</a></h1>
 	
-		<form name="loginform" id="loginform" action="/wp-login.php" method="post">
+		<form name="loginform" id="loginform" action="http://localhost/codingku/wp-login.php" method="post">
 			<p>
 				<label for="user_login">Nama Pengguna atau Alamat Email</label>
 				<input type="text" name="log" id="user_login" class="input" value="" size="20" autocapitalize="off" autocomplete="username">
@@ -35,7 +35,7 @@
 						<p class="forgetmenot"><input name="rememberme" type="checkbox" id="rememberme" value="forever"> <label for="rememberme">Ingat Saya</label></p>
 			<p class="submit">
 				<input type="submit" name="wp-submit" id="wp-submit" class="button button-primary button-large" value="Log Masuk">
-									<input type="hidden" name="redirect_to" value="/wp-admin/">
+									<input type="hidden" name="redirect_to" value="http://localhost/codingku/wp-admin/">
 									<input type="hidden" name="testcookie" value="1">
 			</p>
 		</form>
